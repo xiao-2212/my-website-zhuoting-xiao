@@ -1,0 +1,23 @@
+.button-container {
+    width: 100%; /* 容器宽度 */
+}
+
+.button-item {
+    display: flex; /* 开启Flexbox布局 */
+    align-items: center; /* 垂直居中对齐 */
+    justify-content: space-between; /* 分散对齐元素 */
+    margin-bottom: 10px; /* 每个项之间的间距 */
+}
+
+.button-item p {
+    margin-right: 10px; /* 文字和按钮之间的间隙 */
+}
+
+.button {
+    padding: 10px 20px; /* 按钮的内边距 */
+    background-color: green; /* 按钮的背景色 */
+    color: white; /* 按钮的文字颜色 */
+    text-decoration: none; /* 去除下划线 */
+    border: none; /* 去除边框 */
+    cursor: pointer; /* 鼠标悬停时的指针样式 */
+}
